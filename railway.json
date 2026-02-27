@@ -1,0 +1,10 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd apps/rowboat && npm install && npm run build"
+  },
+  "deploy": {
+    "startCommand": "cd apps/rowboat && npm run start"
+  }
+}
